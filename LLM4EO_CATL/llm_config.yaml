@@ -1,0 +1,5 @@
+# 遗传算法配置
+llm_config:
+    llm_api_endpoint : "https://api.deepseek.com"  # your host endpoint, e.g., api.openai.com, api.deepseek.com
+    llm_api_key: "sk-0e582f6022044b1297882c9d0e1808c1"  # your key, e.g., sk-xxxxxxxxxx
+    llm_model : "deepseek-chat"  # your llm, e.g., gpt-3.5-turbo, deepseek-chat

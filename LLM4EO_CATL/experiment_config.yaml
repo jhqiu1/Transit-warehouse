@@ -1,0 +1,30 @@
+# 指标分组配置
+metric_groups:
+  fitness:
+    - best_fitness
+    - avg_fitness
+    - worst_fitness
+    - fitness_range
+  diversity:
+    - diversity
+    - population_entropy
+    - hamming_distance
+  time:
+    - selection_time
+    - crossover_time
+    - mutation_time
+    - evaluation_time
+  convergence:
+    - convergence_rate
+    - stagnation_count
+    - improvement
+
+# 遗传算法配置
+ga_config:
+  problem_type: FJSP
+  population_size: 200
+  max_generations: 100
+  crossover_rate: 0.85
+  mutation_rate: 0.1
+  elite_count: 5
+  selection_method: tournament
